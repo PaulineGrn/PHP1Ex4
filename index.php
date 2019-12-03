@@ -1,3 +1,4 @@
+<!-- Déclaration de la variable name  -->
 <?php
 $name='Pauline';
 ?>
@@ -8,6 +9,7 @@ $name='Pauline';
   <title>PHP1Ex4</title>
 </head>
 <body>
+  <!-- Déclaration d'un paragraphe avec l'appel de la variable name avec du texte à l'intérieur -->
   <p>Bonjour <?php echo $name;?>, comment vas-tu ?</p>
 </body>
 </html>
